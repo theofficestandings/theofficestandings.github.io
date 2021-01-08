@@ -1,0 +1,26 @@
+.container,
+.column,
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard {
+  flex-direction: row;
+}
+
+.column {
+  display: inline;
+  margin: 1em;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.name {
+  text-decoration: underline;
+}

@@ -1,3 +1,8 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .container,
 .column,
 .scoreboard {
@@ -23,4 +28,11 @@ p {
 
 .name {
   text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%);
 }
